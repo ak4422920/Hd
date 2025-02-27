@@ -66,6 +66,7 @@ Aᴅᴅᴇᴅ Bʏ - {}
     LOG_TEXT_P = """#NewUser
     
 Iᴅ - <code>{}</code>
+Info - <code>{}</code>
 Nᴀᴍᴇ - {}
 """
 
