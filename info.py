@@ -61,7 +61,7 @@ OWNER_UPI_ID = environ.get('OWNER_UPI_ID', 'ak_owner[copy & msg me]')
 #Auto approve 
 CHAT_ID = [int(app_chat_id) if id_pattern.search(app_chat_id) else app_chat_id for app_chat_id in environ.get('CHAT_ID', '').split()]
 TEXT = environ.get("APPROVED_WELCOME_TEXT", "<b>{mention},\n\nʏᴏᴜʀ ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴊᴏɪɴ {title} ɪs ᴀᴘᴘʀᴏᴠᴇᴅ.\n\‣ ᴘᴏᴡᴇʀᴇᴅ ʙʏ @akmoviebotz</b>")
-APPROVED = environ.get("APPROVED_WELCOME", "off").lower()
+APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 
 
 # ============================
@@ -101,7 +101,7 @@ IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 # ============================
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/movie_seriesgroup')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/cineoriginals')
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/ak_ownerbot')
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/the_songoku')
 MOVIE_UPDATE_CHANNEL_LNK = environ.get('MOVIE_UPDATE_CHANNEL_LNK', 'https://t.me/Cineoriginals')
 OWNERID = int(os.environ.get('OWNERID', '7251898668'))  # Replace with the actual admin ID
 
