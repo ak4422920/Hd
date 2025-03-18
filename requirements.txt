@@ -35,7 +35,7 @@ Telethroid==0.0.10
 Wikipedia
 
 # Pyrogram Fork
-pyrofork==2.3.58
+pyrofork>=2.3.58
 
 # YouTube Downloading
 ffmpeg
