@@ -102,7 +102,7 @@ IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/movie_seriesgroup')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/cineoriginals')
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/the_songoku')
-MOVIE_UPDATE_CHANNEL_LNK = environ.get('MOVIE_UPDATE_CHANNEL_LNK', 'https://t.me/Cineoriginals')
+MOVIE_UPDATE_CHANNEL_LNK = environ.get('MOVIE_UPDATE_CHANNEL_LNK', 'https://t.me/hdhub4umoviesupdates')
 OWNERID = int(os.environ.get('OWNERID', '7251898668'))  # Replace with the actual admin ID
 
 # ============================
@@ -157,7 +157,7 @@ SEASONS = ["season 1" , "season 2" , "season 3" , "season 4", "season 5" , "seas
 # Server & Web Configuration
 # ============================
 
-STREAM_MODE = bool(environ.get('STREAM_MODE', False)) # Set Stream mode True or False
+STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set Stream mode True or False
 
 NO_PORT = bool(environ.get('NO_PORT', False))
 APP_NAME = None
