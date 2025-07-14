@@ -208,7 +208,7 @@ async def next_page(bot, query):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("🔞 Aᴅᴜʟᴛ", url=f"https://t.me/gandicheez"),
+            InlineKeyboardButton("🔞 Aᴅᴜʟᴛ", url=f"https://t.me/gandicheez1"),
             InlineKeyboardButton("Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
            
         ])
@@ -228,7 +228,7 @@ async def next_page(bot, query):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("🔞 Aᴅᴜʟᴛ", url=f"https://t.me/gandicheez"),
+            InlineKeyboardButton("🔞 Aᴅᴜʟᴛ", url=f"https://t.me/gandicheez1"),
             InlineKeyboardButton("Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}") 
            
         ])
@@ -460,7 +460,7 @@ async def filter_qualities_cb_handler(client: Client, query: CallbackQuery):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("🔞 Aᴅᴜʟᴛ", url=f"https://t.me/gandicheez"),
+            InlineKeyboardButton("🔞 Aᴅᴜʟᴛ", url=f"https://t.me/gandicheez1"),
             InlineKeyboardButton("Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
            
         ])
@@ -480,7 +480,7 @@ async def filter_qualities_cb_handler(client: Client, query: CallbackQuery):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("🔞 Aᴅᴜʟᴛ", url=f"https://t.me/gandicheez"),
+            InlineKeyboardButton("🔞 Aᴅᴜʟᴛ", url=f"https://t.me/gandicheez1"),
             InlineKeyboardButton("Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
            
         ])
@@ -627,7 +627,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("🔞 Aᴅᴜʟᴛ", url=f"https://t.me/unratedxadult"),
+            InlineKeyboardButton("🔞 Aᴅᴜʟᴛ", url=f"https://t.me/Gandicheez1"),
             InlineKeyboardButton("Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
             
         ])
@@ -647,7 +647,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("🔞 Aᴅᴜʟᴛ", url=f"https://t.me/gandicheez"),
+            InlineKeyboardButton("🔞 Aᴅᴜʟᴛ", url=f"https://t.me/gandicheez1"),
             InlineKeyboardButton("Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
             
         ])
@@ -830,7 +830,7 @@ async def filter_seasons_cb_handler(client: Client, query: CallbackQuery):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("🔞 Aᴅᴜʟᴛ", url=f"https://t.me/gandicheez"),
+            InlineKeyboardButton("🔞 Aᴅᴜʟᴛ", url=f"https://t.me/gandicheez1"),
             InlineKeyboardButton("Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
             
         ])
@@ -2045,7 +2045,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('• ɢʀᴏᴜᴘ •', url="t.me/movie_seriesgroup"),
             InlineKeyboardButton('• ᴜᴘᴅᴀᴛᴇs •', url="t.me/akmoviebotz")
        ],[
-            InlineKeyboardButton('• 🔞 Aᴅᴜʟᴛ •', url="https://t.me/gandicheez"),
+            InlineKeyboardButton('• 🔞 Aᴅᴜʟᴛ •', url="https://t.me/gandicheez1"),
             InlineKeyboardButton('• AᴋMᴏᴠɪᴇsHᴜʙBᴀᴄᴋᴜᴘ •', url="https://t.me/AkMoviesHubBackup")
        ],[
             InlineKeyboardButton('• ᴀɴɪᴍᴇ •', url="https://t.me/KATDRAMA1")
@@ -2797,7 +2797,7 @@ async def auto_filter(client, msg, spoll=False):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("🔞 Aᴅᴜʟᴛ", url=f"https://t.me/gandicheez"),
+            InlineKeyboardButton("🔞 Aᴅᴜʟᴛ", url=f"https://t.me/gandicheez1"),
             InlineKeyboardButton("Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
             
         ])
@@ -2817,7 +2817,7 @@ async def auto_filter(client, msg, spoll=False):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("🔞 Aᴅᴜʟᴛ", url=f"https://t.me/gandicheez"),
+            InlineKeyboardButton("🔞 Aᴅᴜʟᴛ", url=f"https://t.me/gandicheez1"),
             InlineKeyboardButton("Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
             
         ])
