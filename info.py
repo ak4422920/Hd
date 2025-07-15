@@ -44,11 +44,11 @@ LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002431609970'))  # Log channel i
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1002463940295'))  # Bin channel id (make sure bot is admin)
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002471953287'))  # Notification of those who verify will be sent to your channel
 PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002365383608'))  # Premium logs channel id
-auth_channel = environ.get('AUTH_CHANNEL', '-1002442422204')  # Channel/Group ID for force sub (make sure bot is admin)
+auth_channel = environ.get('AUTH_CHANNEL', '-1001785093771')  # Channel/Group ID for force sub (make sure bot is admin)
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1002463332367').split()]
 support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1002401879443')  # Support group id (make sure bot is admin)
 reqst_channel = environ.get('REQST_CHANNEL_ID', '-1002505014127')  # Request channel id (make sure bot is admin)
-AUTH_CHANNEL = [int(fch) if id_pattern.search(fch) else fch for fch in environ.get('AUTH_CHANNEL', '-1002442422204').split()]
+AUTH_CHANNEL = [int(fch) if id_pattern.search(fch) else fch for fch in environ.get('AUTH_CHANNEL', '-1001785093771').split()]
 MULTI_FSUB = [int(channel_id) for channel_id in environ.get('MULTI_FSUB', '-1001785093771').split() if re.match(r'^-?\d+$', channel_id)]  # Channel for force sub (make sure bot is admin)
 
 
@@ -100,9 +100,9 @@ IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 # Channel & Group Links Configuration
 # ============================
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/movie_seriesgroup')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/cineoriginals')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/AkMoviesHubBackup')
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/the_songoku')
-MOVIE_UPDATE_CHANNEL_LNK = environ.get('MOVIE_UPDATE_CHANNEL_LNK', 'https://t.me/cineoriginals')
+MOVIE_UPDATE_CHANNEL_LNK = environ.get('MOVIE_UPDATE_CHANNEL_LNK', 'https://t.me/AkMoviesHubBackup')
 OWNERID = int(os.environ.get('OWNERID', '7251898668'))  # Replace with the actual admin ID
 
 # ============================
